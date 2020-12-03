@@ -1,8 +1,8 @@
 [
   {
     "id":0,
-    "title": "비앤빛 다국어 영문",
-    "thum": "/resources/p0.jpg",
+    "title": "비앤빛 다국어 영문11",
+    "thum": "../resources/p0.jpg",
     "year": "2020",
     "description": [
        "- 반응형 PC, Mobile 작업"
@@ -14,7 +14,7 @@
   {
     "id":1,
     "title": "비앤빛 국문 AI 페이지",
-    "thum": "/resources/p1.jpg",
+    "thum": "../resources/p1.jpg",
     "year": "2019",
     "description": [
       "- PC버전 작업"
@@ -26,7 +26,7 @@
   {
     "id":2,
     "title": "신한DS 메인",
-    "thum": "/resources/p2.jpg",
+    "thum": "../resources/p2.jpg",
     "year": "2019",
     "description": [
        "- 메인 페이지 작업, 인터랙션",
@@ -39,7 +39,7 @@
   {
     "id":3,
     "title": "라스트소울 사전예약",
-    "thum": "/resources/p3.jpg",
+    "thum": "../resources/p3.jpg",
     "year": "2018",
     "description": [
       "- 모바일게임 사전예약",
@@ -52,7 +52,7 @@
   {
     "id":4,
     "title": "Archeage 태초 업데이트",
-    "thum": "/resources/p4.jpg",
+    "thum": "../resources/p4.jpg",
     "year": "2017",
     "description": [
        "- 게임 업데이트 프리뷰 페이지",
@@ -65,7 +65,7 @@
   {
     "id":5,
     "title": "Archeage 오키드나 업데이트",
-    "thum": "/resources/p5.jpg",
+    "thum": "../resources/p5.jpg",
     "year": "2016",
     "description": [
       "- 게임 업데이트 프리뷰 페이지",
@@ -78,7 +78,7 @@
   {
     "id":6,
     "title": "Archeage 2.9 업데이트",
-    "thum": "/resources/p6.jpg",
+    "thum": "../resources/p6.jpg",
     "year": "2016",
     "description": [
        "- 모바일게임 사전예약",
@@ -91,7 +91,7 @@
   {
     "id":7,
     "title": "Archeage 아키위키",
-    "thum": "/resources/p7.jpg",
+    "thum": "../resources/p7.jpg",
     "year": "2016~7",
     "description": [
       "- 아키위키 메인 리뉴얼 개선 "
@@ -103,7 +103,7 @@
   {
     "id":8,
     "title": "Archeage 계승자 스킬",
-    "thum": "/resources/p8.jpg",
+    "thum": "../resources/p8.jpg",
     "year": "2016~7",
     "description": [
       "- 계승자 신규 페이지 작업",
@@ -116,7 +116,7 @@
   {
     "id":9,
     "title": "Archeage Gallery",
-    "thum": "/resources/p9.jpg",
+    "thum": "../resources/p9.jpg",
     "year": "2016~7",
     "description": [
       "- 이미지 게시판 개선",
@@ -129,7 +129,7 @@
   {
     "id":10,
     "title": "Archeage Music",
-    "thum": "/resources/p10.jpg",
+    "thum": "../resources/p10.jpg",
     "year": "2016~7",
     "description": [
       "- 게임음악 리뉴얼 개선 작업",
@@ -142,7 +142,7 @@
   {
     "id":11,
     "title": "차병원 제대혈 아이코드",
-    "thum": "/resources/p11.jpg",
+    "thum": "../resources/p11.jpg",
     "year": "2013",
     "description": [
       "- 메인, 서브 가이드제작",
@@ -155,7 +155,7 @@
   {
     "id":12,
     "title": "CJ대한통운택배 모바일웹",
-    "thum": "/resources/p12.jpg",
+    "thum": "../resources/p12.jpg",
     "year": "2013",
     "description": [
       "- 프리랜서 재택"
