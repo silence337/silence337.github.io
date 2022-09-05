@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+<script src="../resources/js/jquery-1.11.3.min.js"></script>
+<script src="../resources/js/util.pack-1.0.3.js"></script>
+<meta name="viewport" content="width=device-width">
+<script type="text/javascript" src="../resources/js/ui.pack.web.js"></script>
+<link rel="stylesheet" type="text/css" href="../resources/css/web.css">
+</head>
+<body>
+<nav class="pagination">
+	<ul>
+		<li><a href="#">Main</a></li>
+		<li><a href="#">테스터 신청</a></li>
+		<li><a href="#">영상</a></li>
+		<li><a href="#">캐릭터</a></li>
+	</ul>
+</nav>
+<nav class="quickMenu">
+	<a href="#" class="btn_home">Home</a>
+	<a href="#" class="btn_cafe">cafe</a>
+</nav>
+
+<!-- content (S) -->
+<div id="content">
+	<div class="section main active" style="opacity: 1;transform: scale(1);" data-area="1">
+		<div class="mTitle" style="z-index: 10;">
+			<span class="typo1"></span>
+			<span class="typo2">
+				<em class="t1"></em>
+				<em class="t2"></em>
+				<em class="t3"></em>
+			</span>
+			<span class="typo3"></span>
+			<span class="main_top_light"></span>
+			<span class="main_typo_light"></span>
+
+			<span class="mBtb">
+				<a href="#" class="btn_tester_app">비공개 테스트 신청</a>
+				<i class="ico_scroll"></i>
+			</span>
+		</div>
+		<div class="fireLight"></div>
+		<div class="mCharacter"><div></div></div>
+		<div class="fireParticle">
+			<div class="inner">
+				<div class="ptc p1"></div>
+				<div class="ptc p2"></div>
+				<div class="ptc p3"></div>
+				<div class="ptc p4"></div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- content (E) -->
+
+<!-- Blind Content Element (S) -->
+<div id="blindContent">
+	<!-- section 1 (S) -->
+	<div class="section main" data-area="1">
+		<div class="mTitle">
+			<span class="typo1"></span>
+			<span class="typo2">
+				<em class="t1"></em>
+				<em class="t2"></em>
+				<em class="t3"></em>
+			</span>
+			<span class="typo3"></span>
+			<span class="main_top_light"></span>
+			<span class="main_typo_light"></span>
+
+			<span class="mBtb">
+				<a href="#" class="btn_tester_app">비공개 테스트 신청</a>
+				<i class="ico_scroll"></i>
+			</span>			
+		</div>
+		<div class="fireLight"></div>
+		<div class="mCharacter"><div></div></div>
+		<div class="fireParticle">
+			<div class="inner">
+				<div class="ptc p1"></div>
+				<div class="ptc p2"></div>
+				<div class="ptc p3"></div>
+				<div class="ptc p4"></div>
+			</div>
+		</div>
+	</div>
+
+	<!-- section 2 (S) -->
+	<div class="section" data-area="2">
+
+		<!-- 테스터 모집 PC, Mobile 공용-->
+		<div class="tester">
+			<h2 class="title_tester">라스트소울 비공개 테스터 모집</h2>
+			<p class="blind">
+				CBT테스터 모집기간 : 12.28 ~ 1.10<br>
+				CBT테스터 기간 : 1.11 ~ 1.17 <br>
+				테스터 신청 후 정식 서비스 오픈 시 아이템 100% 지급
+			</p>
+			<div class="tester_item">
+				푸른보옥 50개, 고급 비석 티켓 3장, 금화 3만
+			</div>
+			<span class="tester_txt1">비공개 테스트는 안드로이드 기기만 신청이 가능합니다.</span>
+			
+			<!-- 신청 field -->
+			<fieldset class="app">
+				<span>010</span>
+				<div class="int">
+					<input type="text" name="" placeholder="- 를 제외한 휴대폰 번호 입력해주세요.">
+				</div>
+				<a href="javascript:void(0);" onclick="nf.alert('테스트');" class="tester_app">테스트 신청</a>
+			</fieldset>
+			<!-- //신청 field -->
+
+			<!-- 동의 -->
+			<div class="agree">
+				<dl>
+					<dt>
+						<label>
+							<input type="checkbox" name="">
+						</label>
+						<a href="javascript:void(0);" class="agreeAll tester_txt2">전체 동의</a>
+					</dt>
+					<dd>
+						<label>
+							<input type="checkbox" name="">
+						</label>
+						<a href="javascript:void(0);" class="tester_txt3">개인정보 수집, 이용 및 SMS(광고문자) 수신에 동의합니다.</a> <a href="#agree" class="agree_view">자세히보기</a></span>
+					</dd>
+					<dd>
+						<label>
+							<input type="checkbox" name="">
+						</label>
+						<a href="javascript:void(0);" class="tester_txt4">개인정보 처리 위탁에 동의합니다.</a><a href="#agree" class="agree_view">자세히보기</a>
+					</dd>
+				</dl>
+				<a href="#info" class="info_view"><i class="tester_txt5">유의사항 보기</i></a>
+			</div>
+			<!-- //동의 -->
+		</div>
+		<!-- //테스터 모집 PC, Mobile 공용 -->
+
+
+	</div>
+
+	<!-- section 3 (S) -->
+	<div class="section" data-area="3">
+		<!-- 영상 -->
+		<div class="movie">
+			<h2 class="title_movie">악귀, 그리고 인간계 멸망의 잊혀졌던 전장의 기록</h2>
+			<ul class="movieTab">
+				<li><a href="#intro" class="btn_intro on">intro</a></li>
+				<li><a href="#play" class="btn_play">play</a></li>
+			</ul>
+			<div id="intro" class="movieBox">
+				<a href="javascript:void(0);" class="btn_moviePlay" data-url="lYs3e3bWt8E">Play</a>
+			</div>
+			<div id="play" class="movieBox">
+				<a href="javascript:void(0);" class="btn_moviePlay" data-url="lYs3e3bWt8E">Play</a>
+			</div>
+		</div>
+		<!-- //영상 -->
+	</div>
+
+	<!-- section 4 (S) -->
+	<div class="section" data-area="4">
+		<!-- 캐릭터 -->
+		<div class="subSection character">
+			<div class="innerHeader">
+				<div class="title">
+					<div class="t1"></div>
+				</div>
+				<nav class="nav">
+					<ul>
+						<li><a href="#" class="on"><span>귀검사</span></a></li>
+						<li><a href="#"><span>지하대장군</span></a></li>
+						<li><a href="#"><span>원거리궁사</span></a></li>
+						<li><a href="#"><span>치유도사</span></a></li>
+					</ul>
+				</nav>
+				
+				<div class="btnPointer">
+					<a href="#" class="btn_char_prev" style="display:none;">prev</a>
+					<a href="#" class="btn_char_next">next</a>
+				</div>
+			</div>
+
+			<div class="subContent c1" data-sub="1">
+				<div class="innerWrap">
+					<div class="inner">
+						<span class="char"></span>
+						<!-- character cnt -->
+						<span class="text">
+							<strong></strong>
+							<span class="stxt"></span>
+							<span class="thum">
+								<a href="#c1_screen1"><span>screenshot</span></a>
+								<a href="#c1_screen2"><span>screenshot</span></a>
+							</span>
+						</span>
+						<!-- //character cnt -->
+					</div>
+				</div>
+			</div>
+			<div class="subContent c2" data-sub="2">
+				<div class="innerWrap">
+					<div class="inner">
+						<span class="char"></span>
+						<!-- character cnt -->
+						<span class="text">
+							<strong></strong>
+							<span class="stxt"></span>
+							<span class="thum">
+								<a href="#c2_screen1"><span>screenshot</span></a>
+								<a href="#c2_screen2"><span>screenshot</span></a>
+							</span>
+						</span>
+						<!-- //character cnt -->
+					</div>
+				</div>
+			</div>
+			<div class="subContent c3" data-sub="3">
+				<div class="innerWrap">
+					<div class="inner">
+						<span class="char"></span>
+						<!-- character cnt -->
+						<span class="text">
+							<strong></strong>
+							<span class="stxt"></span>
+							<span class="thum">
+								<a href="#c3_screen1"><span>screenshot</span></a>
+								<a href="#c3_screen2"><span>screenshot</span></a>
+							</span>
+						</span>
+						<!-- //character cnt -->
+					</div>
+				</div>
+			</div>
+			<div class="subContent c4" data-sub="4">
+				<div class="innerWrap">
+					<div class="inner">
+						<span class="char"></span>
+						<!-- character cnt -->
+						<span class="text">
+							<strong></strong>
+							<span class="stxt"></span>
+							<span class="thum">
+								<a href="#c4_screen1"><span>screenshot</span></a>
+								<a href="#c4_screen2"><span>screenshot</span></a>
+							</span>
+						</span>
+						<!-- //character cnt -->
+					</div>
+				</div>
+			</div>
+			<!-- //캐릭터 -->
+		</div>
+		<div class="footer">
+			<div class="inner">
+				<i class="linegames"></i>
+				<i class="stormgames"></i>
+				<p class="copyright"></p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Blind Content Element (E) -->
+
+<!-- LAYER POPUP : PC, Mobile 공통 (S) -->
+	<!-- layer 이용약관 및 동의서 -->
+	<div id="agree" class="infoText">
+		<h3>이용약관 및 동의서</h3>
+		<div class="infoTxt">
+			<h4>개인정보 수집 및 동의</h4>
+			<div class="agreetxt1">
+				라인게임즈 주식회사는 게임 정보 안내, 이벤트 정보 및 이벤트 보상 안내를 위해 다음과 같이 개인정보를 수집하고 있습니다.<br>
+				 - 개인정보 수집 및 이용목적 : 게임 정보 안내, 이벤트 정보 및 이벤트 보상 안내<br>
+				 - 수집하는 개인정보 항목 : 휴대폰번호<br>
+				 - 개인정보 보유 및 이용기간 : CBT참여 신청일로부터 1년 보관 후 삭제<br><br>
+
+				 이용자는 본 동의를 거부할 권리가 있습니다.<br>
+				 단, 동의를 거부하는 경우 게임 정보 안내, 이벤트 정보 및 <br>
+				 이벤트 보상 안내 문자메시지를 받을 수 없고, CBT에 참여할 수 없습니다.
+			</div>
+
+			<h4>개인정보 처리 위탁 동의</h4>
+			<div class="agreetxt2">
+				라인게임즈 주식회사는 게임 정보 안내, 이벤트 정보 및 이벤트 보상 안내를 위해 다음과 같이 개인정보를 위탁합니다.<br><br>
+
+				- 개인정보 위탁 업체 : 와이제이정보 주식회사<br>
+				- 위탁 업무 내용 : 게임 정보 안내, 이벤트 정보 및 이벤트 보상 안내를 위한 문자메시지 발송
+			</div>
+		</div>
+	</div>
+	<!-- //layer 이용약관 및 동의서 -->
+
+	<!-- layer 유의사항 -->
+	<div id="info" class="infoText">
+		<h3>유의사항</h3>
+		<div class="infoTxt">
+			<ul>
+				<li>CBT 테스트는 안드로이드​ 기기 환경에서만 신청 후 참여가 가능합니다.</li>
+				<li>타인의 전화번호를 도용할 경우 참여가 제한되며, 법적 처벌을 받을 수 있습니다. </li>
+				<li>CBT 참여 시 잘못된 전화번호를 입력한 경우, 추가적인 안내 및 도움을 드리지 않습니다.</li>
+				<li>CBT 참여 혜택 및 혜택 지급 일정은 내부 사정에 따라 변경될 수 있습니다. </li>
+				<li>CBT 참여는 국내 통신사에 가입된 단말기로만 진행할 수 있으며, 해외 이용자는 신청 및 이용이 제한됩니다.</li>
+				<li>단말기 스팸 기능이 설정되어 있는 경우, 정상적으로 안내 문자 메시지를 받을 수 없습니다.</li>
+				<li>CBT 참여 기회 철회를 원하실 경우, 아래 이메일로 문의 주시기 바랍니다.<br>​(고객센터 이메일 : game_service@linegames.kr)</li>
+				<li>CBT 안내 문자 메시지를 삭제한 경우, 재발송 및 재안내 되지 않습니다.</li>
+				<li>CBT 기간 게임 계정을 구글 계정과 연동하지 않고 게임 또는 게임 데이터 삭제 시 게임을 다시 이용하실 수 없습니다.</li>
+				<li>CBT 기간 게임 이용방법과 관련한 가이드는 게임 공식 카페를 통해 안내 받을 수 있습니다.</li>
+				<li>SMS 발송은 무료입니다.</li>
+				<li>이벤트 상품과 진행 일정 및 내용은 당사 사정에 의해 예고없이 변경될 수 있습니다.</li>
+				<li>게임 다운로드는 CBT 기간 ‘구글 Play 스토어’를 통해 받을 수 있습니다.</li>
+				<li>CBT 참여 혜택은 정식 서비스 오픈 시 문자 메시지를 통해 게임 쿠폰 형태로 발송됩니다.</li>
+			</ul>
+		</div>
+	</div>
+	<!-- //layer 유의사항 -->
+
+	<!-- layer ScreenShot -->
+	<span id="c1_screen1" class="screenshot"></span>
+	<span id="c1_screen2" class="screenshot"></span>
+	<span id="c2_screen1" class="screenshot"></span>
+	<span id="c2_screen2" class="screenshot"></span>
+	<span id="c3_screen1" class="screenshot"></span>
+	<span id="c3_screen2" class="screenshot"></span>
+	<span id="c4_screen1" class="screenshot"></span>
+	<span id="c4_screen2" class="screenshot"></span>
+	<!--//layer <span>ScreenShot</span> -->
+<!-- LAYER POPUP : PC, Mobile 공통 (E) -->
+
+<!--Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '473196149748016');
+fbq('track', 'PageView');
+</script>
+<noscript><imgheight="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=473196149748016&ev=PageView&noscript=1"
+/></noscript>
+<!--End Facebook Pixel Code -->
+</body>
+</html>
