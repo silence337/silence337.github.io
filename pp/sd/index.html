@@ -1,0 +1,676 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width">
+<meta name="description" content="신한 DS"/>
+<meta name="keywords" content="신한 DS">
+<title>신한 DS</title>
+<link rel="icon" type="image/x-icon" href="/" />
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+
+<!-- 메인 css -->
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="css/fullpage.css" >
+</head>
+
+<body id="main"><!-- 각 페이지별로 달라집니다. -->
+
+<div id="wrap">
+	<!-- S:header -->
+	<div class="header">
+		<h1><a href="../index.html">신한 DS</a></h1>
+		<div class="topmenu">
+			<ul>
+				<li><a href="#">COMPANY</a></li>
+				<li><a href="#">BUSINESS</a></li>
+				<li><a href="#">PR CENTER</a></li>
+				<li><a href="#">RECRUIT</a></li>
+			</ul>
+			<button type="button" class="btn-partner">협력사관리시스템</button>
+			<button class="btn-category" onclick="gnbToggle()">
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+			</button>
+		</div>
+		<div class="submenu">
+			<div class="menu company">
+				<p><strong>COMPANY</strong></p>
+				<div class="innerbox">
+					<ul>
+						<li class="on"><a href="#">신한DS소개</a></li><!-- 활성화 메뉴 on클래스 추가 -->
+						<li><a href="#">CEO인사말</a></li>
+					</ul>
+					<ul>
+						<li><a href="#">기업문화</a></li>
+					</ul>
+					<ul>
+						<li>
+							<a href="#">신한금융그룹</a>
+							<ul>
+								<li><a href="#">그룹소개</a></li>
+								<li><a href="#">신한WAY</a></li>
+								<li><a href="#">그룹미션</a></li>
+								<li><a href="#">핵심가치</a></li>
+								<li><a href="#">그룹비전</a></li>
+								<li><a href="#">그룹사 소개</a></li>
+							</ul>
+						</li>
+					</ul>
+					<ul>
+						<li><a href="#">연혁</a></li>
+						<li><a href="#">조직도</a></li>
+					</ul>
+					<ul>
+						<li><a href="#">회사위치</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="menu business">
+				<p><strong>BUSINESS</strong></p>
+				<div class="innerbox">
+					<ul>
+						<li>
+							<a href="#">디지털신기술</a>
+							<ul>
+								<li><a href="#">인공지능(AI)</a></li>
+								<li><a href="#">블록체인</a></li>
+								<li><a href="#">Open API</a></li>
+								<li><a href="#">IoT</a></li>
+								<li><a href="#">클라우드</a></li>
+								<li><a href="#">UX</a></li>
+							</ul>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<a href="#">정보보안</a>
+							<ul>
+								<li><a href="#">보안컨설팅</a></li>
+								<li><a href="#">보안SI</a></li>
+								<li><a href="#">보안관제</a></li>
+								<li><a href="#">전문가 서비스</a></li>
+							</ul>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<a href="#">IT SERVICE</a>
+							<ul>
+								<li><a href="#">SM</a></li>
+								<li><a href="#">ITSC</a></li>
+								<li><a href="#">BPO</a></li>
+								<li><a href="#">SI</a></li>
+							</ul>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<a href="#">솔루션</a>
+							<ul>
+								<li><a href="#">e-HR 시스템</a></li>
+								<li><a href="#">S-Frame</a></li>
+								<li><a href="#">S-Talk</a></li>
+								<li><a href="#">S-Pass</a></li>
+								<li><a href="#">FINS</a></li>
+							</ul>
+							<ul>
+								<li><a href="#">PC사용시간 관리시스템</a></li>
+								<li><a href="#">S-Tcolla 협업솔루션</a></li>
+								<li><a href="#">IoT동산관리시스템</a></li>
+								<li><a href="#">eNote</a></li>
+								<li><a href="#">S-앱빌더</a></li>
+							</ul>
+						</li>
+					</ul>
+					<ul>
+						<li><a href="#">SFL</a></li>
+						<li><a href="#">GLOBAL</a></li>
+						<li><a href="#">구축사례</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="menu prcenter">
+				<p><strong>PR CENTER</strong></p>
+				<div class="innerbox">
+					<ul>
+						<li>
+							<a href="#">신한소식</a>
+							<ul>
+								<li><a href="#">공지사항</a></li>
+								<li><a href="#">신한금융그룹소식</a></li>
+							</ul>
+						</li>
+					</ul>
+					<ul>
+						<li><a href="#">신한인사보</a></li>
+					</ul>
+					<ul>
+						<li><a href="#">사업공시</a></li>
+						<li><a href="#">인증현황</a></li>
+					</ul>
+					<ul>
+						<li><a href="#">고객사소개</a></li>
+					</ul>
+					<ul>
+						<li><a href="#">사회공헌활동</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="menu recruit">
+				<p><strong>RECRUIT</strong></p>
+				<div class="innerbox">
+					<ul>
+						<li><a href="#">채용안내</a></li>
+					</ul>
+					<ul>
+						<li><a href="#">인재상</a></li>
+					</ul>
+					<ul>
+						<li>
+							<a href="#">인사제도</a>
+							<ul>
+								<li><a href="#">직무소개</a></li>
+								<li><a href="#">평가 보상제도</a></li>
+								<li><a href="#">인재육성</a></li>
+							</ul>
+						</li>
+					</ul>
+					<ul>
+						<li><a href="#">복리후생</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //E:header -->
+
+	<!-- S:nav --><!-- 2019.09.18 .mobile-gnb -> .allmenu로 변경(전체 공통 변경사항) -->
+	<nav class="allmenu">
+		<div class="innerbox">
+			<div class="depthtitle">
+				<ul>
+					<li class="on"><a href="#">COMPANY</a></li><!-- 활성화 메뉴 on클래스 추가 -->
+					<li><a href="#">BUSINESS</a></li>
+					<li><a href="#">PR CENTER</a></li>
+					<li><a href="#">RECRUIT</a></li>
+				</ul>
+				<button type="button" class="btn-partner mobile-only">협력사관리시스템</button>
+			</div>
+			<div class="secdepth">
+				<ul class="menu1 on"><!-- 활성화 메뉴 on클래스 추가 -->
+					<li><a href="#">신한DS소개</a></li>
+					<li><a href="#">CEO인사말</a></li>
+					<li><a href="#">기업문화</a></li>
+					<li>
+						<a href="#" class="holder">신한금융그룹</a><!-- 하위메뉴가 있는경우 .holder클래스 추가 -->
+						<ul class="thdepth">
+							<li><a href="#">그룹소개</a></li>
+							<li><a href="#">신한WAY</a></li>
+							<li><a href="#">그룹미션</a></li>
+							<li><a href="#">핵심가치</a></li>
+							<li><a href="#">그룹비전</a></li>
+							<li>
+								<a href="#" class="holder">그룹사소개</a>
+								<ul class="fodepth">
+									<li><a href="#">사업라인</a></li>
+									<li><a href="#">제휴사소개</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li><a href="#">연혁</a></li>
+					<li><a href="#">조직도</a></li>
+					<li><a href="#">회사위치</a></li>
+				</ul>
+				<ul class="menu2">
+					<li>
+						<a href="#" class="holder">디지털신기술</a>
+						<ul class="thdepth">
+							<li><a href="#">인공지능(AI)</a></li>
+							<li><a href="#">블록체인</a></li>
+							<li><a href="#">Open API</a></li>
+							<li><a href="#">IoT</a></li>
+							<li><a href="#">클라우드</a></li>
+							<li><a href="#">UX</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#" class="holder">정보보안</a>
+						<ul class="thdepth">
+							<li><a href="#">보안컨설팅</a></li>
+							<li><a href="#">보안SI</a></li>
+							<li><a href="#">보안관제</a></li>
+							<li><a href="#">전문가 서비스</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#" class="holder">IT Service</a>
+						<ul class="thdepth">
+							<li><a href="#">SM</a></li>
+							<li><a href="#">ITSC</a></li>
+							<li><a href="#">BPO</a></li>
+							<li><a href="#">SI</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#" class="holder">솔루션</a>
+						<ul class="thdepth">
+							<li><a href="#">e-HR 시스템</a></li>
+							<li><a href="#">S-Frame</a></li>
+							<li><a href="#">S-Talk</a></li>
+							<li><a href="#">S-Pass</a></li>
+							<li><a href="#">FINS</a></li>
+							<li><a href="#">PC사용시간 관리시스템</a></li>
+							<li><a href="#">S-Tcolla 협업솔루션</a></li>
+							<li><a href="#">IoT동산관리시스템</a></li>
+							<li><a href="#">eNote</a></li>
+							<li><a href="#">S-앱빌더</a></li>
+						</ul>
+					</li>
+					<li><a href="#">SFL</a></li>
+					<li><a href="#">GLOBAL</a></li>
+					<li><a href="#">구축사례</a></li>
+				</ul>
+				<ul class="menu3">
+					<li>
+						<a href="#" class="holder">신한소식</a>
+						<ul class="thdepth">
+							<li><a href="#">공지사항</a></li>
+							<li><a href="#">신한금융그룹소식</a></li>
+						</ul>
+					</li>
+					<li><a href="#">신한인사보</a></li>
+					<li><a href="#">사업공시</a></li>
+					<li><a href="#">인증현황</a></li>
+					<li><a href="#">고객사 소개</a></li>
+					<li><a href="#">사회공헌활동</a></li>
+				</ul>
+				<ul class="menu4">
+					<li><a href="#">채용안내</a></li>
+					<li><a href="#">인재상</a></li>
+					<li>
+						<a href="#" class="holder">인사제도</a>
+						<ul class="thdepth">
+							<li><a href="#">직무소개</a></li>
+							<li><a href="#">평가 보상제도</a></li>
+							<li><a href="#">인재육성</a></li>
+						</ul>
+					</li>
+					<li><a href="#">복리후생</a></li>
+				</ul>
+			</div>
+		</div>
+		<button type="button" class="btn-close mobile-only" onclick="gnbToggle()">메뉴닫기</button>
+	</nav>
+	<!-- //E:nav -->
+
+	<!-- S:container -->
+	<div class="container">
+
+		<!-- Main SIDE Navigation -->
+		<nav class="mainSideNavi">
+			<ul id="menu">
+				<li data-menuanchor="COMPANY" class="active"><a href="#COMPANY"><em>01</em> COMPANY</a></li>
+				<li data-menuanchor="BUSINESS"><a href="#BUSINESS"><em>02</em> BUSINESS</a></li>
+				<li data-menuanchor="PRCENTER"><a href="#PRCENTER"><em>03</em> PR CENTER</a></li>
+				<li data-menuanchor="RECRUIT"><a href="#RECRUIT"><em>04</em> RECRUIT</a></li>
+			</ul>
+		</nav>
+		<!-- //Main SIDE Navigation -->
+
+		<span class="icoMouse"><i><em></em></i></span>
+
+		<!-- Main Fullpage Content -->
+		<div class="maincontents" id="fullpage">
+			<!-- S:Company -->
+			<div class="section mCompany" data-name="COMPANY" data-text="COMPANY MORE">
+				<div class="titleGroup">
+					<h3><span>COMPANY</span></h3>
+					<dl>
+						<dt>
+							<span>
+								<i>D</i><i>i</i><i>g</i><i>i</i><i>t</i><i>a</i><i>l</i>
+								<i>S</i><i>o</i><i>l</i><i>u</i><i>t</i><i>i</i><i>o</i><i>n</i>
+								<i>C</i><i>r</i><i>e</i><i>a</i><i>t</i><i>o</i><i>r</i>
+							</span>
+							<strong><em>고객의 상상을 현실로</em> 만드는 기업</strong>
+						</dt>
+						<dd class="t1"><span>상상이 현실이 되는 디지털 세상.</span></dd>
+						<dd class="t2"><span>새로운 기술과 맞춤형 서비스로 고객과 함께 만들겠습니다.</span></dd>
+					</dl>
+				</div>
+
+				<!-- 공지사항 -->
+				<div class="mainNotice">
+					<ul id="slickNews">
+						<li><a href="#">[공지] 그룹데이타센터 OP운영업무 위탁</a></li>
+						<li><a href="#">[공지] 개인정보처리방침 개정 안내(2019.08.01)</a></li>
+						<li><a href="#">[공지] 신한DS 머신러닝 관련 글로벌 컨퍼런스에 논문 발표</a></li>
+						<li><a href="#">[공지] 개인정보처리방침 개정 안내(2019.08.01)</a></li>
+						<li><a href="#">[공지] 신한DS 머신러닝 관련 글로벌 컨퍼런스에 논문 발표</a></li>
+					</ul>
+				</div>
+				<!-- //공지사항 -->
+
+				<div class="videoGroup video1"></div>
+			</div>
+			<!-- E:Company -->
+
+			<!-- S:Business -->
+			<div class="section mBusiness" data-name="BUSINESS" data-text="BUSINESS MORE">
+				<div class="titleGroup">
+					<h3><span>BUSINESS</span></h3>
+					<dl>
+						<dt>
+							<span>
+								<i>D</i><i>i</i><i>g</i><i>i</i><i>t</i><i>a</i><i>l</i>
+								<i>T</i><i>r</i><i>a</i><i>n</i><i>s</i><i>f</i><i>o</i><i>r</i><i>m</i><i>a</i><i>t</i><i>i</i><i>o</i><i>n</i>
+								<i>I</i><i>n</i><i>n</i><i>o</i><i>v</i><i>a</i><i>t</i><i>o</i><i>r</i>
+							</span>
+							<strong><em>ICT 분야에 새로운 혁신을 </em>전달하는 기업</strong>
+						</dt>
+						<dd class="t1"><span><em>고객의 니즈를 반영한 서비스와 기술력으로 최적의</em></span></dd>
+						<dd class="t2"><span><em>시스템 환경을 구축하고 새로운 비즈니스 </em>기회를 창출합니다.</span></dd>
+					</dl>
+				</div>
+				<div class="videoGroup video2"></div>
+			</div>
+			<!-- E:Business -->
+
+			<!-- S:PRcenter -->
+			<div class="section mPRcenter" data-name="PRCENTER" data-text="PR CENTER MORE">
+				<div class="titleGroup">
+					<h3><span>PR CENTER</span></h3>
+					<dl>
+						<dt>
+							<span>
+								<i>P</i><i>e</i><i>o</i><i>p</i><i>l</i><i>e</i> <i>&</i>
+								<i>S</i><i>o</i><i>c</i><i>i</i><i>e</i><i>t</i><i>y</i>
+								<i>C</i><i>o</i><i>m</i><i>m</i><i>u</i><i>n</i><i>i</i><i>c</i><i>a</i><i>t</i><i>o</i><i>r</i>
+							</span>
+							<strong><em>행복과 나눔을 </em>실천하는 기업</strong>
+						</dt>
+						<dd class="t1"><span>과거의 발자취를 통해 내일의 성공 가치관을 확보하고,</span></dd>
+						<dd class="t2"><span>참여형 사회공헌 캠페인을 통해 따뜻함을 전달합니다.</span></dd>
+					</dl>
+				</div>
+				<div class="videoGroup video3"></div><!-- 2019-09-23 추가 -->
+			</div>
+			<!-- E:Business -->
+
+			<!-- S:Recruit -->
+			<div class="section mRecruit" data-name="RECRUIT" data-text="RECRUIT MORE">
+				<div class="titleGroup">
+					<h3><span>RECRUIT</span></h3>
+					<dl>
+						<dt>
+							<span>
+								<i>I</i><i>C</i><i>T</i>
+								<i>S</i><i>p</i><i>e</i><i>c</i><i>i</i><i>a</i><i>l</i><i>i</i><i>s</i><i>t</i>
+								<i>S</i><i>u</i><i>p</i><i>p</i><i>o</i><i>r</i><i>t</i><i>e</i><i>r</i>
+							</span>
+							<strong><em>디지털 전문인력 인력 </em><em>양성을 위해</em> 투자하는 기업</strong>
+						</dt>
+						<dd class="t1"><span>열정과 창의적인 도전으로 미래를 이끌어갈 당신,</span></dd>
+						<dd class="t2"><span>최고의 전문성을 갖춘 신한DS에서 성장을 꿈꾸세요.</span></dd>
+					</dl>
+
+				</div>
+				<div class="videoGroup video4"></div><!-- 2019-09-23 추가 -->
+			</div>
+			<!-- E:Recruit -->
+
+		</div>
+		<!-- //Main Fullpage Content -->
+
+	</div>
+	<!-- //E:container -->
+
+	<!-- S:footer -->
+	<div class="footer">
+		<div class="innerbox">
+			<h1><span>신한 DS</span></h1>
+			<ul>
+				<li><a href="#">개인정보처리방침</a></li>
+				<li><a href="#">개인영상정보 취급방침</a></li>
+				<li class="pc-only"><a href="#">사이트맵</a></li>
+				<li class="pc-only"><a href="#">찾아오시는 길</a></li>
+				<li class="mobile-only"><a href="#">PC 버전</a></li>
+			</ul>
+			<div class="familysite">
+				<span class="holder"><a href="javascript:familyToggle()">FAMILY SITE</a></span>
+				<ul>
+					<li><a href="http://www.shinhangroup.com/" target="_blank">신한금융지주</a></li>
+					<li><a href="http://www.shinhan.com/" target="_blank">신한은행</a></li>
+					<li><a href="http://www.shinhancard.com/" target="_blank">신한카드</a></li>
+					<li><a href="http://www.shinhaninvest.com/" target="_blank">신한금융투자</a></li>
+					<li><a href="http://www.shinhanlife.co.kr/" target="_blank">신한생명</a></li>
+					<li><a href="http://www.orangelife.co.kr/" target="_blank">오렌지라이프</a></li>
+					<li><a href="http://www.shbnppam.com/" target="_blank">신한BNP파리바자산운용</a></li>
+					<li><a href="http://www.shcap.co.kr/" target="_blank">신한캐피탈</a></li>
+					<li><a href="http://www.e-jejubank.co.kr/" target="_blank">제주은행</a></li>
+					<li><a href="http://www.shinhansavings.com/" target="_blank">신한저축은행</a></li>
+					<li><a href="http://www.asiatrust.co.kr/" target="_blank">아시아신탁</a></li>
+					<li><a href="http://www.shinhanaitas.com/" target="_blank">신한아이타스</a></li>
+					<li><a href="http://www.shinhanci.co.kr/" target="_blank">신한신용정보</a></li>
+					<li><a href="http://www.shinhanrem.com/" target="_blank">신한리츠운용</a></li>
+					<li><a href="http://www.shsf.or.kr/" target="_blank">신한장학재단</a></li>
+				</ul>
+			</div>
+			<p class="copyrights">
+				<span>(04540) 서울 중구 남대문로 10길 29 대표전화 : 02-756-0056</span><br/>
+				<span>COPYRIGHT ⓒ SINCE 2019 BY THE SHINHAN DS <br class="mobile-only">ALL RIGHTS RESERVED.</span>
+			</p>
+		</div>
+		<button type="button" class="btn-gotop" title="TOP"><em>TOP</em></button>
+	</div>
+	<!-- //E:footer -->
+
+</div>
+
+<!-- More Contents -->
+<div class="moreWrap">
+	<a href="javascript:;" class="btnMain-more" data-name="COMPANY"><span>COMPANY MORE</span></a>
+
+	<!-- Company more contents -->
+	<div class="sideAreaWrap" id="COMPANY_view">
+		<div class="innerWrap">
+			<!-- more list -->
+			<div class="companyMoreList">
+				<ul>
+					<li>
+						<h4>신한DS소개</h4>
+						<strong>새로운 디지털 Road를 선도할 ICT 전문 기업</strong>
+						<p>
+						미래 ICT 세상에 대한 끊임없는 연구와 고민으로 축적된 디지털에 대한 풍부한 경험과 정보보호 분야의 전문역량 등을 활용하여 신한금융그룹 내부 시스템의 성공적인 구축과 그룹 외 프로젝트 경험을 쌓으며 차별화된 대외 경쟁력을 확보하고 있습니다
+						</p>
+						<a href="#" class="btn-detail-view">자세히보기</a>
+					</li>
+					<li>
+						<h4>기업문화</h4>
+						<strong>일과 삶의 균형을 통한 건강한 기업문화</strong>
+						<p>
+							직원의 워라밸 실현을 위한 제도 운영과 다양한 사내 프로그램을 통해 건강하고 스마트한 기업문화를 선도합니다.
+						</p>
+						<a href="#" class="btn-detail-view">자세히보기</a>
+					</li>
+					<li>
+						<h4>신한금융그룹</h4>
+						<strong>미래를 함께 하는 따뜻한 금융</strong>
+						<p>
+						성공적인 M&A와 사업 다변화, 리스크 관리로 대한민국 1위 금융그룹으로 발돋움하였습니다. 고객과 주주의 가치를 높이는 기업으로 한발 더 나아가겠습니다.
+						</p>
+						<a href="#" class="btn-detail-view">자세히보기</a>
+					</li>
+				</ul>
+			</div>
+			<!-- //more list -->
+			<a href="javascript:;" class="btnMore-close">Close</a>
+		</div>
+	</div>
+
+	<!-- Business more contents -->
+	<div class="sideAreaWrap" id="BUSINESS_view">
+		<div class="innerWrap">
+			<!-- more list -->
+			<div class="businessMoreList">
+				<ul>
+					<li>
+						<a href="#" class="btn-biz1">
+							<h4>디지털신기술</h4>
+							<p>블록체인부터 인공지능까지 디지털신기술 전문가가 함께합니다.</p>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="btn-biz2">
+							<h4>정보보안</h4>
+							<p>정보보안 컨설팅 서비스부터 보안 SI, 보안솔루션까지 종합 정보보안 전문가가 함께합니다.</p>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="btn-biz3">
+							<h4>IT SERVICE</h4>
+							<p>전문적이고 차별화 된 IT SERVICE를 제안합니다.</p>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="btn-biz4">
+							<h4>솔루션</h4>
+							<p>고객의 개발 생산성과 관리 효율성, 운영의 안정성 강화를 위한 다양한 솔루션을 제안합니다.</p>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="btn-biz5">
+							<h4>SFL</h4>
+							<p>혁신적인 아이디어를 가진 스타트업의 단계별 지원을 통해 핀테크, 신기술 기반의 사업모델을 발굴합니다.</p>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="btn-biz6">
+							<h4>GLOBAL</h4>
+							<p>글로벌 ICT Innovator로 성장하겠습니다.</p>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="btn-biz7">
+							<h4>구축사례</h4>
+							<p>다양한 분야에서의 프로젝트 수행내역을 소개합니다.</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<!-- //more list -->
+			<a href="javascript:;" class="btnMore-close">Close</a>
+		</div>
+	</div>
+
+	<!-- PRcenter more contents -->
+	<div class="sideAreaWrap" id="PRCENTER_view">
+		<div class="innerWrap">
+			<!-- more list -->
+			<div class="prcenterMoreList">
+				<ul>
+					<li class="prnew">
+						<h4>신한소식</h4>
+						<div class="slickList1">
+							<a href="#">
+								<strong>한국인터넷진흥원(KISA)과 정보보호 인재양성 (K-Shield Jr.) 업무협약 체결</strong>
+								<span class="date">2019.01.01</span>
+							</a>
+							<a href="#">
+								<strong>한국인터넷진흥원(KISA)과 정보보호 인재양성 (K-Shield Jr.) 업무협약 체결</strong>
+								<span class="date">2019.01.01</span>
+							</a>
+							<a href="#">
+								<strong>한국인터넷진흥원(KISA)과 정보보호 인재양성 (K-Shield Jr.) 업무협약 체결</strong>
+								<span class="date">2019.01.01</span>
+							</a>
+						</div>
+					</li>
+					<li class="contribution">
+						<h4>사회공헌활동</h4>
+						<p>ICT 역량을 연계한 프로그램 진행을 통해 지역사회에 기여하는 기업의 사회적 책임을 다하고 있습니다.</p>
+						<div class="slickList2">
+							<div class="image">
+								<strong>제10회 신한시큐어 토크콘서트</strong>
+								<img src="images/@thum.gif">
+							</div>
+							<div class="image">
+								<strong>제10회 신한시큐어 토크콘서트</strong>
+								<img src="images/@thum.gif">
+							</div>
+							<div class="image">
+								<strong>제10회 신한시큐어 토크콘서트</strong>
+								<img src="images/@thum.gif">
+							</div>
+						</div>
+					</li>
+					<li class="condition">
+						<h4>인증현황</h4>
+						<p>
+							공신력 있는 국내/국제기관으로부터 공식적으로  입증 받은 인증서를 소개합니다.
+						</p>
+						<a href="#" class="btn-detail-view">자세히보기</a>
+					</li>
+				</ul>
+			</div>
+			<!-- //more list -->
+			<a href="javascript:;" class="btnMore-close">Close</a>
+		</div>
+	</div>
+
+	<!-- Recruit more contents -->
+	<div class="sideAreaWrap" id="RECRUIT_view">
+		<div class="innerWrap">
+			<!-- more list -->
+			<div class="recruitMoreList">
+				<ul>
+					<li>
+						<a href="#" class="btn-biz1">
+							<h4>채용안내</h4>
+							<p>Digital Transformation을 선도하는 신한DS에서 미래를 함께 할 능력 있는 인재를 찾습니다.</p>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="btn-biz2">
+							<h4>인재상</h4>
+							<p>혁신적 사고와 열정으로 신한WAY를 실천하는 디지털/ICT 최고 전문가를 육성합니다</p>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="btn-biz3">
+							<h4>인사제도</h4>
+							<p>신한DS 경쟁력의 원천은 인재이며, 직원 모두가 전문가로 성장할 수 있도록 기회를 제공합니다.</p>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="btn-biz4">
+							<h4>복리후생</h4>
+							<p>직원의 복지 향상과 행복한 근무환경을 조성하기 위해 다양한 복리후생 제도를 운영하고 있습니다.</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<!-- //more list -->
+			<a href="javascript:;" class="btnMore-close">Close</a>
+		</div>
+	</div>
+</div>
+<!-- //More Contents -->
+
+<!-- 스크립트는 가장 하단에 위치 -->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery_ui.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+<script src="js/slick.js"></script>
+<script src="js/common_ui.js"></script>
+
+<!-- 메인 JS -->
+<script src="js/fullpage.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
