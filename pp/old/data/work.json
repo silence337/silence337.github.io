@@ -1,0 +1,168 @@
+{
+  "Workspace": [
+    {
+      "id":0,
+      "title": "비앤빛 다국어 영문",
+      "thum": "p0",
+      "year": "2020",
+      "description": [
+        "- 반응형 PC, Mobile 작업"
+      ],
+      "tools": "HTML5, CSS3, SCSS, JAVASCRIPT, WEBPACK",
+      "link": "http://english.bnviit.com/",
+      "copy": "BNVIIT ENG"
+    },
+    {
+      "id":1,
+      "title": "비앤빛 국문 AI 페이지",
+      "thum": "p1",
+      "year": "2019",
+      "description": [
+        "- PC버전 작업"
+      ],
+      "tools": "HTML5, CSS3, JAVASCRIPT, JQUERY",
+      "link": "https://www.bnviit.com/bnviit/introduce_03.php?p=29&title=%EB%B9%84%EC%95%A4%EB%B9%9B%20A.I.%20%EC%8B%9C%EC%8A%A4%ED%85%9C",
+      "copy": "BNVIIT AI"
+    },
+    {
+      "id":2,
+      "title": "신한DS 메인",
+      "thum": "p2",
+      "year": "2019",
+      "description": [
+        "- 메인 페이지 작업, 인터랙션",
+        "- 레이아웃 등 헤더 푸터는 제외"
+      ],
+      "tools": "HTML5, CSS3, JAVASCRIPT, JQUERY",
+      "link": "https://silence337.github.io/pp/sd/index.html",
+      "copy": "SHINHAN DS"
+    },
+    {
+      "id":3,
+      "title": "라스트소울 사전예약",
+      "thum": "p3",
+      "year": "2018",
+      "description": [
+        "- 모바일게임 사전예약",
+        "- PC, Moblie"
+      ],
+      "tools": "HTML5, CSS3, SCSS, JAVASCRIPT, WEBPACK",
+      "link": "https://silence337.github.io/pp/ls/html_web/index.html",
+      "copy": "LASTSOUL"
+    },
+    {
+      "id":4,
+      "title": "Archeage 태초 업데이트",
+      "thum": "p4",
+      "year": "2017",
+      "description": [
+        "- 게임 업데이트 프리뷰 페이지",
+        "- PC, Moblie"
+      ],
+      "tools": "HTML5, CSS3, SCSS, JAVASCRIPT, JQUERY",
+      "link": "https://archeage.xlgames.com/game/update/2017/01",
+      "copy": "ARCHEAGE UPDATE"
+    },
+    {
+      "id":5,
+      "title": "Archeage 오키드나 업데이트",
+      "thum": "p5",
+      "year": "2016",
+      "description": [
+        "- 게임 업데이트 프리뷰 페이지",
+        "- PC"
+      ],
+      "tools": "HTML5, CSS3, SCSS, JAVASCRIPT, JQUERY",
+      "link": "https://archeage.xlgames.com/game/update/2016/07",
+      "copy": "ARCHEAGE UPDATE"
+    },
+    {
+      "id":6,
+      "title": "Archeage 2.9 업데이트",
+      "thum": "p6",
+      "year": "2016",
+      "description": [
+        "- 모바일게임 사전예약",
+        "- PC, Moblie"
+      ],
+      "tools": "HTML5, CSS3, SCSS, JAVASCRIPT, JQUERY",
+      "link": "https://archeage.xlgames.com/game/update/2.9",
+      "copy": "ARCHEAGE 2.9 UPDATE"
+    },
+    {
+      "id":7,
+      "title": "Archeage 아키위키",
+      "thum": "p7",
+      "year": "2016~7",
+      "description": [
+        "- 아키위키 메인 리뉴얼 개선 "
+      ],
+      "tools": "HTML5, CSS3, SCSS, JAVASCRIPT, JQUERY",
+      "link": "https://archeage.xlgames.com/wikis",
+      "copy": "ARCHEAGE WIKI"
+    },
+    {
+      "id":8,
+      "title": "Archeage 계승자 스킬",
+      "thum": "p8",
+      "year": "2016~7",
+      "description": [
+        "- 계승자 신규 페이지 작업",
+        "- 스킬 자바스크립트 프로토타입"
+      ],
+      "tools": "HTML5, CSS3, SCSS, JAVASCRIPT, JQUERY",
+      "link": "https://archeage.xlgames.com/abilities/calculator/heir",
+      "copy": "ARCHEAGE SKILL"
+    },
+    {
+      "id":9,
+      "title": "Archeage Gallery",
+      "thum": "p9",
+      "year": "2016~7",
+      "description": [
+        "- 이미지 게시판 개선",
+        "- 썸네일 비율 유지"
+      ],
+      "tools": "HTML5, CSS3, SCSS, JAVASCRIPT, JQUERY",
+      "link": "https://archeage.xlgames.com/gboards/image",
+      "copy": "ARCHEAGE GALLERY"
+    },
+    {
+      "id":10,
+      "title": "Archeage Music",
+      "thum": "p10",
+      "year": "2016~7",
+      "description": [
+        "- 게임음악 리뉴얼 개선 작업",
+        "- 업데이트 OST 페이지 추가 작업"
+      ],
+      "tools": "HTML5, CSS3, SCSS, JAVASCRIPT, JQUERY",
+      "link": "https://archeage.xlgames.com/gameinfos/bgm",
+      "copy": "ARCHEAGE OST"
+    },
+    {
+      "id":11,
+      "title": "차병원 제대혈 아이코드",
+      "thum": "p11",
+      "year": "2013",
+      "description": [
+        "- 메인, 서브 가이드제작",
+        "- 고객사 요청으로 가이드만 제작"
+      ],
+      "tools": "HTML, CSS, JAVASCRIPT, JQUERY",
+      "link": "http://live337.cafe24.com/portfolio/icode/main_type1.html",
+      "copy": "ICODE"
+    },
+    {
+      "id":12,
+      "title": "CJ대한통운택배 모바일웹",
+      "thum": "p12",
+      "year": "2013",
+      "description": [
+        "- 프리랜서 재택"
+      ],
+      "tools": "HTML, CSS, JAVASCRIPT, JQUERY",
+      "link": "http://live337.cafe24.com/portfolio/door/main.html",
+      "copy": "CJLogistics"
+    }
+]}
